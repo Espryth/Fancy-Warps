@@ -1,0 +1,14 @@
+name: FancyWarps
+main: espryth.fancywarps.FancyWarps
+version: 1.0.0
+api-version: 1.13
+author: Espryth
+commands:
+  fancywarps:
+    usage: /<command>
+    aliases: [fw]
+    description: Set spawn.
+  warps:
+    usage: /<command>
+    aliases: [warp]
+    description: Set spawn.

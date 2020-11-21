@@ -1,0 +1,67 @@
+Menus:
+ 1:
+  title: '&dWarps'
+  rows: 3
+  fillSlots: true
+  items:
+   myfirstwarp:
+    name: "&bMy Warp 1"
+    material: BOOK
+    lore:
+    - ''
+    - '&eClick to go'
+    slot: 13
+    #action: WARP_TO_<Warp Name>
+    #action: OPEN_MENU_<Menu Name>
+    #action: CLOSE
+    action: WARP_TO_Warp1
+   nextpage:
+    name: "&d&oNext Page"
+    material: PAPER
+    lore:
+    - 'line 1'
+    - 'line 2'
+    slot: 17
+    action: OPEN_MENU_2
+   close:
+    name: "&cCLOSE"
+    material: BARRIER
+    slot: 22
+    action: CLOSE
+ 2:
+  title: '&dWarps page 2'
+  rows: 3
+  fillSlots: true
+  items:
+   mysecondwarp:
+    name: "&aMy Warp 2"
+    material: BOOK
+    lore:
+    - ''
+    - '&eClick to go'
+    slot: 13
+    #action: WARP_TO_<Warp Name>
+    #action: OPEN_MENU_<Menu Name>
+    #action: CLOSE
+    action: WARP_TO_Warp2
+   firstpage:
+    name: "&d&oBack"
+    material: PAPER
+    lore:
+    - 'line 1'
+    - 'line 2'
+    slot: 9
+    action: OPEN_MENU_1
+   close:
+    name: "&cCLOSE"
+    material: BARRIER
+    slot: 22
+    action: CLOSE
+   nextpage:
+    name: "&d&oNext Page"
+    material: PAPER
+    lore:
+     - 'line 1'
+     - 'line 2'
+    slot: 17
+    action: OPEN_MENU_3

@@ -1,0 +1,10 @@
+Config:
+  #fancywarps.warp.<warpname>
+  #fancywarps.tp.<warpname>
+  Individual-permission: false
+  Block-player-move: true
+  Teleport-delay: 3
+Sounds:
+  Open-menu: ENTITY_PLAYER_LEVELUP;10;10
+  No-warp-permission: BLOCK_ANVIL_LAND;10;10
+  Warping: BLOCK_NOTE_BLOCK_PLING;10;10

@@ -1,0 +1,18 @@
+Lang:
+  UnknownWarp: "&cThis warp don't exist"
+  NoPermission: "&cInsufficient permissions"
+  AlreadyTeleporting: "&cYou're already teleporting!"
+  Set:
+    Setted: "&dThe warp &5%warp% &dwas be created."
+  Del:
+    Deleted: "&dThe warp &5%warp% &dwas be deleted."
+  Tp:
+    ForcedTeleport: "&dYou was be forced teleport to &5%warp%&d."
+    ForcedTeleportOther: "&5%player% &dwas be teleported to &5%warp%&d."
+    NoPermissionIndividual: "&cYou can't teleport to %warp%!"
+    NoPermissionOthers: "&cYou can't teleport other players!"
+  Warp:
+    #Also you can use Message
+    Title: "&d%time%;&fTeleporting..."
+    CancelTeleport: "&c&lTeleport cancel;&fDon't move!"
+    NoPermissionIndividual: "&cYou can't teleport to %warp%!"
